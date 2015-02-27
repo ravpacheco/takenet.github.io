@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Git para iniciantes
+comments: True
 ---
 
 # Introdução
