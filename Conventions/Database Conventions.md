@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Coding Conventions - C#
+title: Database Conventions
 ---
 
 # Introdução
