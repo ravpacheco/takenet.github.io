@@ -82,12 +82,31 @@ As store procedures devem ser nomeadas com o prefixo **Usp**, seguido do nome da
 
 O nome da funcionalidade deve indicar de forma clara a interação que a procedure realiza com a tabela. Abaixo uma lista de sugestões de nomes para as funcionalidades das procedures:
 
-| Ação                 | Sugestão de nome |
-|----------------------|------------------|
-| Inserção de dados    | Insert           |
-| Remoção de dados     | Delete           |
-| Atualização de dados | Update           | 
-| Obtenção de dados por uma coluna | GetBy<Nome da Coluna><nome da="" coluna=""></nome> |
+<thead>
+<tr>
+<th>Ação</th>
+<th>Sugestão de nome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inserção de dados</td>
+<td>Insert</td>
+</tr>
+<tr>
+<td>Remoção de dados</td>
+<td>Delete</td>
+</tr>
+<tr>
+<td>Atualização de dados</td>
+<td>Update</td>
+</tr>
+<tr>
+<td>Obtenção de dados por uma coluna</td>
+<td>GetBy<nome da="" coluna=""><nome da="" coluna=""></nome></nome></td>
+</tr>
+</tbody>
+</table>
 
 Exemplos:
 

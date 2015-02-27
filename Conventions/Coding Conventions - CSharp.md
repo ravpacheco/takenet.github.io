@@ -30,21 +30,82 @@ Os termos seguintes descrevem diferentes formas de se capitalizar identificadore
 
 Quando um identificador for constituído de múltiplas palavras, não utilize '_' (underscore) ou '-'' (hífen) entre as palavras. Ao invés disto, utilize maíuscula na primeira letra de cada palavra. A exceção a esta regra são as constantes, que utilizam notação Upper case, o que dificultaria a identificação das palavras. Neste caso, utilize '_' (underscore) entre as palavras.
 
-| Identificador          | Notação    | Exemplo           |   
-|------------------------|:----------:|:-----------------:|   
-| Classe                 | Pascal     | AppDomain         |   
-| Tipo Enumerador        | Pascal     | ErrorLevel        |   
-| Valor de Enumerador    | Pascal     | FatalError        |   
-| Evento                 | Pascal     | ValueChanged      |   
-| Classe de Exceção      | Pascal     | WebException      |   
-| Campo somente-leitura  | Pascal     | RedValue          |   
-| Interface              | Pascal     | IDisposable       |   
-| Método                 | Pascal     | ToString          |   
-| Namespace              | Pascal     | System.Drawing    |   
-| Parâmetro              | Camel      | typeName          |   
-| Variável local         | Camel      | carTire           |   
-| Propriedade de Classe  | Pascal     | BackColor         |   
-| Constante              | Upper Case | DEFAULT_BACKCOLOR |
+<table>
+<thead>
+<tr>
+<th>Identificador</th>
+<th style="text-align:center">Notação</th>
+<th style="text-align:center">Exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Classe</td>
+<td style="text-align:center">Pascal</td>
+<td style="text-align:center">AppDomain</td>
+</tr>
+<tr>
+<td>Tipo Enumerador</td>
+<td style="text-align:center">Pascal</td>
+<td style="text-align:center">ErrorLevel</td>
+</tr>
+<tr>
+<td>Valor de Enumerador</td>
+<td style="text-align:center">Pascal</td>
+<td style="text-align:center">FatalError</td>
+</tr>
+<tr>
+<td>Evento</td>
+<td style="text-align:center">Pascal</td>
+<td style="text-align:center">ValueChanged</td>
+</tr>
+<tr>
+<td>Classe de Exceção</td>
+<td style="text-align:center">Pascal</td>
+<td style="text-align:center">WebException</td>
+</tr>
+<tr>
+<td>Campo somente-leitura</td>
+<td style="text-align:center">Pascal</td>
+<td style="text-align:center">RedValue</td>
+</tr>
+<tr>
+<td>Interface</td>
+<td style="text-align:center">Pascal</td>
+<td style="text-align:center">IDisposable</td>
+</tr>
+<tr>
+<td>Método</td>
+<td style="text-align:center">Pascal</td>
+<td style="text-align:center">ToString</td>
+</tr>
+<tr>
+<td>Namespace</td>
+<td style="text-align:center">Pascal</td>
+<td style="text-align:center">System.Drawing</td>
+</tr>
+<tr>
+<td>Parâmetro</td>
+<td style="text-align:center">Camel</td>
+<td style="text-align:center">typeName</td>
+</tr>
+<tr>
+<td>Variável local</td>
+<td style="text-align:center">Camel</td>
+<td style="text-align:center">carTire</td>
+</tr>
+<tr>
+<td>Propriedade de Classe</td>
+<td style="text-align:center">Pascal</td>
+<td style="text-align:center">BackColor</td>
+</tr>
+<tr>
+<td>Constante</td>
+<td style="text-align:center">Upper Case</td>
+<td style="text-align:center">DEFAULT_BACKCOLOR</td>
+</tr>
+</tbody>
+</table>
 
 
 ## Nomenclatura
