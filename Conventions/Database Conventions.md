@@ -169,7 +169,8 @@ Ao escolher os tipos de dados a serem utilizados nas colunas das tabelas, devem 
 
 <table border="1">
 <thead>
-|Tipo|Utilização|
+<tr><td>Tipo</td><td>Utilização</td>
+</tr>
 </thead>
 <tbody>
 <tr>
