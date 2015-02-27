@@ -30,20 +30,20 @@ Os termos seguintes descrevem diferentes formas de se capitalizar identificadore
 
 Quando um identificador for constituído de múltiplas palavras, não utilize '_' (underscore) ou '-'' (hífen) entre as palavras. Ao invés disto, utilize maíuscula na primeira letra de cada palavra. A exceção a esta regra são as constantes, que utilizam notação Upper case, o que dificultaria a identificação das palavras. Neste caso, utilize '_' (underscore) entre as palavras.
 
-| Identificador          | Notação    | Exemplo           |
-|------------------------|:----------:|:-----------------:|
-| Classe                 | Pascal     | AppDomain         |
-| Tipo Enumerador        | Pascal     | ErrorLevel        |
-| Valor de Enumerador    | Pascal     | FatalError        |
-| Evento                 | Pascal     | ValueChanged      |
-| Classe de Exceção      | Pascal     | WebException      |
-| Campo somente-leitura  | Pascal     | RedValue          |
-| Interface              | Pascal     | IDisposable       |
-| Método                 | Pascal     | ToString          |
-| Namespace              | Pascal     | System.Drawing    |
-| Parâmetro              | Camel      | typeName          |
-| Variável local         | Camel      | carTire           |
-| Propriedade de Classe  | Pascal     | BackColor         |
+| Identificador          | Notação    | Exemplo           |   
+|------------------------|:----------:|:-----------------:|   
+| Classe                 | Pascal     | AppDomain         |   
+| Tipo Enumerador        | Pascal     | ErrorLevel        |   
+| Valor de Enumerador    | Pascal     | FatalError        |   
+| Evento                 | Pascal     | ValueChanged      |   
+| Classe de Exceção      | Pascal     | WebException      |   
+| Campo somente-leitura  | Pascal     | RedValue          |   
+| Interface              | Pascal     | IDisposable       |   
+| Método                 | Pascal     | ToString          |   
+| Namespace              | Pascal     | System.Drawing    |   
+| Parâmetro              | Camel      | typeName          |   
+| Variável local         | Camel      | carTire           |   
+| Propriedade de Classe  | Pascal     | BackColor         |   
 | Constante              | Upper Case | DEFAULT_BACKCOLOR |
 
 
