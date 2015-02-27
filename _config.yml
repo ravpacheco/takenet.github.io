@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Takenet
 tagline:          'Takenet'
-description:      'Onde o mundo de telefonia vira negócio para todos.<br>Sms Corporativo BH, mobile business, telefones celulares brasil, sms soluções'
+description:      'Onde o mundo de telefonia vira negócio para todos.'
 url:              takenet.github.io
 baseurl:          /
 
