@@ -33,8 +33,6 @@ Exemplo:
 
     the best...
 
-## Como contribuir?
-
 Existem duas formas de contribuir: 
 
  * Github: Se você tem acesso ao repositório no Github, você pode escrever o post e adicioná-lo na pasta `_posts`
