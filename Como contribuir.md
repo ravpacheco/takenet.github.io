@@ -39,3 +39,10 @@ Existem duas formas de contribuir:
  * Pull Request: Se não tiver acesso ao repositório, basta realizar um fork, adicionar o post (e/ou alterações no blog que julgue necessárias) e fazer um pull request. Este será analizado e se aprovado será publicado as alterações.
 
 
+## Backlog
+
+O backlog é mantido no github via Issues. Qualquer um pode contribuir para melhorar o blog, basta [acessar as issues](https://github.com/takenet/takenet.github.io/issues) e puxar as que deseja trabalhar.  
+
+Caso puxe alguma, os commits **devem fazer referência à mesma**, exemplo:
+
+    git commit -m "Fix #1, add backlog information in Como Contribuir"
