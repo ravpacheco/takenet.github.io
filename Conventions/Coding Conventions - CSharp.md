@@ -21,7 +21,7 @@ Os termos seguintes descrevem diferentes formas de se capitalizar identificadore
  * Camel case: A primeira letra do identificador é minúscula e cada palavra concatenada subsequente é escrita em maiúscula.
     backColor
     person
-    Upper case – Todas as letras são maiúsculas. Exemplo:
+ * Upper case – Todas as letras são maiúsculas. Exemplo:
     OK
     IO
     VALUE_FILTER
