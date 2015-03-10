@@ -353,7 +353,7 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 .author-header {
-  height: 60px;
+  height: 65px;
 }
 .author-header h3 {
   padding-top: 16px;
@@ -363,7 +363,7 @@ tbody tr:nth-child(odd) th {
 /* Related posts */
 .pull-left {
   float: left;
-  margin-right: 15px;
+  margin: 0 15px 0 0;
 }
 .related {
   padding-top: 2rem;
