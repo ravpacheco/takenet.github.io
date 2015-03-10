@@ -5,12 +5,14 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-info">
-    <span class="post-date">{{ page.date | date_to_string }}</span>
-    by {% include author-url.html %}
+    <span class="post-date">{{ page.date | date_to_string }}</span><span> by </span>
+    {% include author-url.html %}
   </div>
   {{ content }}
-  <hr />
-  {% include author-info.html %}
+  {% if author.bio %}
+    <hr />
+    {% include author-info.html %}
+  {% endif %}
 </div>
 
 <div class="related">
