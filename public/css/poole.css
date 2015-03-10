@@ -352,8 +352,19 @@ tbody tr:nth-child(odd) th {
 .post-info span {
   color: #9a9a9a;
 }
+.author-header {
+  height: 60px;
+}
+.author-header h3 {
+    padding-top: 16px;
+}
+
 
 /* Related posts */
+.pull-left {
+  float: left;
+  margin-right: 15px;
+}
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
