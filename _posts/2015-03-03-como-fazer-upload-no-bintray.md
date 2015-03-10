@@ -2,6 +2,10 @@
 layout: post
 title: Fazendo upload para o bintray
 comments: True
+tags: [bintray]
+categories: [android]
+published: True
+author: guitcastro
 ---
 
 # Introdução

@@ -2,6 +2,9 @@
 layout: post
 title: Git para iniciantes
 comments: True
+tags: [git]
+published: True
+author: ridermansb
 ---
 
 # Introdução
