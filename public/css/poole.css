@@ -345,10 +345,11 @@ tbody tr:nth-child(odd) th {
 }
 
 /* Meta data line below post title */
-.post-date {
-  display: block;
+.post-info {
   margin-top: -.5rem;
   margin-bottom: 1rem;
+}
+.post-info span {
   color: #9a9a9a;
 }
 
