@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% assign author_data = site.data.members | where:"username", page.author %}
+{% assign author = author_data | first %}  
+
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-info">
