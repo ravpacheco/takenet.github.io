@@ -1,0 +1,12 @@
+<div class="container" style='margin: 50px auto;'>
+  <div class="row">
+    <div class="about-the-author col-md-8 col-md-offset-2">
+      {% assign author_data = site.data.members | where:"username", page.author %}
+      {% assign author = author_data | first %}  
+      <!-- <img class="photo img-circle pull-left" src="/assets/img/team/{{ author.photo }}" alt="photo of {{ author.name }}"> -->
+      <p>
+        {{ author.name }}
+      </p>
+    </div>
+  </div>
+</div>  
