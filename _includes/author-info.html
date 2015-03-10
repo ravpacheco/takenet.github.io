@@ -1,6 +1,3 @@
-{% assign author_data = site.data.members | where:"username", page.author %}
-{% assign author = author_data | first %}  
-
 <div class="author-header">
   {% if author.photoUri %}
     <img class="img-circle pull-left" src="{{ author.photoUri }}" alt="photo of {{ author.name }}" width="55px" height="55px">

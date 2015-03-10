@@ -13,12 +13,10 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
     {% assign author_data = site.data.members | where:"username", post.author %}
     {% assign author = author_data | first %}  
-    
     <span> by </span> {% include author-url.html %}
-
+    
     {{ post.content }}
   </div>
   {% endfor %}
